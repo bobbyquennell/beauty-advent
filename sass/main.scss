@@ -194,6 +194,16 @@ body {
     &.flex-item-center {
       align-self: center;
     }
+    &.flex-item-mobile-top {
+      @include bp-medium {
+        order: 0;
+      }
+    }
+    &.flex-item-mobile-base {
+      @include bp-medium {
+        order: 1;
+      }
+    }
     box-sizing: border-box;
     flex: 1;
     text-align: center;

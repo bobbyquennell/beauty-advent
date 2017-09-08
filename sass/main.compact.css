@@ -116,6 +116,10 @@ html, body { height: 80%; margin: 0; padding: 0; }
 
 .flex-grid .flex-item.flex-item-center { align-self: center; }
 
+@media only screen and (max-width: 40em) { .flex-grid .flex-item.flex-item-mobile-top { order: 0; } }
+
+@media only screen and (max-width: 40em) { .flex-grid .flex-item.flex-item-mobile-base { order: 1; } }
+
 .flex-grid .flex-item img { width: 100%; }
 
 @media only screen and (max-width: 40em) { .flex-grid .flex-item { flex: 1 1 100%; } }
